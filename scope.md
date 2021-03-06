@@ -22,3 +22,14 @@ console.log('>existe x antes do bloco?', x)
 }
 console.log('> existe x depois do bloco? ', x)
 ```
+
+## let e const 
+```js 
+// const e let são locais e só funcionam no escopo onde foi criada
+console.log('> existe y? ', y)
+
+{
+  let y = 0
+}
+console.log('> existe y? ', y)
+```

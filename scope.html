@@ -1,14 +1,25 @@
 <script>
 
-  var x
-  //var é global e, tambem local
-  console.log('> existe x antes do bloco? ', x)
+  /*  var x
+    //var é global e, tambem local
+    console.log('> existe x antes do bloco? ', x)
+  
+    {
+      x = 0
+  
+    }
+    console.log('> existe x depois do bloco? ', x)
+  */
+
+  // const e let são locais e só funcionam no escopo onde foi criada
+
+  let y = 1;
 
   {
-    x = 0
-
+    let y = 0
+    console.log('> existe y? ', y)
   }
-  console.log('> existe x depois do bloco? ', x)
 
+  console.log('> existe y depois do bloco? ', y)
 
 </script>
