@@ -25,3 +25,19 @@ const myName = (name) => {
 }
 
 myName('Mariele')
+
+// CALLBACK FUNCTION
+
+function MyName(name) {
+  console.log('antes de executar a função callback')
+
+  name()
+
+  console.log('depois de executar a callback')
+}
+
+MyName(
+  () => {
+    console.log('estou em uma callback')
+  }
+)
