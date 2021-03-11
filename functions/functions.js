@@ -9,3 +9,11 @@ function createThink() {
 console.log(subject)
 createThink()
 console.log(subject)
+
+// FUNCTION HOISTING
+
+sayMyName()
+
+function sayMyName() {
+  console.log('Mariele')
+}
