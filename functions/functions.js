@@ -17,3 +17,11 @@ sayMyName()
 function sayMyName() {
   console.log('Mariele')
 }
+
+// ARROW FUNCTION
+
+const myName = (name) => {
+  console.log(name)
+}
+
+myName('Mariele')
